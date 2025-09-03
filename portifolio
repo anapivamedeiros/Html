@@ -1,0 +1,256 @@
+INDEX
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="container" >
+            <h1>Meu Portiflio Inicial</h1>
+            <nav>
+                <ul>
+                    <li><a href= "#sobre">Sobre Mim</a></li> 
+                    <li><a href= "#hobbies">Hobbies</a></li>
+                    <li><a href= "#habilidades">Habilidades</a></li>
+                    <li><a href= "#midias">Mídias</a></li>
+                    <li><a href= "#contato">Contato</a></li>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <section id="sobre" class="secao">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Olá, meu nome é Ana Laura e sou aluna de tecnologia, 
+                    <br>faço <strong>Análise e Desenvolvimento de Sistemas.</strong>
+                    <br>Sou grata pela oportunidade de realizar esse curso.
+                    <p>
+                     Não irei seguir carreira na área de tecnologia da informação,
+                     <br>pois não me vejo realizando este curo. Meu veradeiro sonho 
+                     <br>é trabalhar na <em>área da saúde.</em>
+                    </p>
+                </p>
+            </section>
+            <section id="hobbies" class="secao">
+                <h2>Meus Hobbies</h2>
+                <ul>
+                    <li>Ler livros</li>
+                    <ul>
+                        <li>Romances</li>
+                        <li>Suspenses</li>
+                    </ul>
+                    <li>Viajar</li>
+                    <li>Ir ao cinema</li>
+                    <li>Fazer compras</li>
+                </ul>
+                <h3>Top 3 livros favoritos</h3>
+                <ol>
+                    <li>Eleanor & Grey</li>
+                    <li>Era uma vez um coração partido</li>
+                    <li>A hipótese do amor</li>
+                </ol>
+                <h3>Frases dos livros que eu gosto</h3>
+                <dl>
+                    <dt>Eleanor & Grey</dt>
+                    <dd>"A vida é feita de escolhas, e cada uma delas define quem 
+                        <br>realmente somos."</dd>
+                    <dd>"Nem todos os finais são felizes, mas todo fim é um novo começo.</dd>
+                    <dt>Era uma vez um coração partido</dt>
+                    <dd>“Acredito que existem muitas outras possibilidades além de finais 
+                        <br>felizes ou tragédia. Toda história tem potencial para infinito fins.”</dd>
+                        <dt>A hpótese do amor</dt>
+                    <dd>"Estou começando a me perguntar se é isso que é estar apaixonado. Estar 
+                        <br>bem em se despedaçar, para que a outra pessoa possa ficar inteira"</dt>
+                </dl>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4IBnoS6Y_q2wE-7U1ff7JpkTaci_Yujf8vY3bm9UIYK3b0zGStf-Hz1Z73ArmavOuyY&usqp=CAU" alt="Livros">
+            </section>
+            <section id="habilidades" class="secao">
+                <h2>Tabela de habilidades</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <tr>Tecnologia</tr>
+                            <tr>Nivel de conhecimento</tr>
+                            <tr>Ano de programação</tr>
+                        </tr>
+                    </thead>
+                    <body>
+                        <tr>
+                            <td>HTML v4</td>
+                            <td>Iniciante</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>JAVA</td>
+                            <td>Intermediário</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>CSS v4</td>
+                            <td>Iniciante</td>
+                            <td>2025</td>
+                        </tr>
+                    </body>
+                </table>
+            </section>
+            <section id="midias" class="secao">
+                <h2>Mídias</h2>
+                <h3>Meu video minha vida de programador</h3>
+                <video width="100%" controls>
+                    <source src="Taylor Swift ✮⋆˙ - Calm songs playlist.mp4" type="video/mp4">
+                </video>
+            </section>
+            
+        </main>
+    </div>
+</body>
+</html>
+
+
+
+
+
+CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+.secao {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.secao h2 {
+    color: #3f51b5;
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul, ol, dl {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul ul {
+    margin-top: 5px;
+}
+
+dl dt {
+    font-weight: bold;
+    color: #5c6bc0;
+}
+
+dl dd {
+    margin-bottom: 10px;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead tr {
+    background-color: #3f51b5;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Vídeo */
+video {
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table, thead, tbody, th, td, tr {
+        font-size: 14px;
+    }
+}
