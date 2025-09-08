@@ -1,0 +1,100 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(202, 165, 171) ;
+  margin: 0;
+  padding: 0;
+  color:black (0, 0, 0);
+  line-height: 1.0;
+}
+img {
+      width: 200px; 
+      height: 200px; 
+      border-radius: 50%;
+      object-fit: cover; 
+    }
+.container{  
+    width: 85%;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 20px;
+}
+header{
+    background-color: rgb(179, 144, 189);
+    color:rgb(0, 0, 0);
+    padding-top: 25px;
+    min-height: 50px;
+    border-bottom:rgb(2, 2, 2) 3px solid;
+}
+header h1{
+    text-align: center;
+    margin: -40px;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 10px;
+    min-height: 70px;
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+nav li{
+    display: inline;
+    padding: 0 20px;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: nome;
+    font-weight: bold;
+}
+nav a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.secao{
+    padding: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to right, white, rgb(189, 167, 189));
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgb(83, 82, 82);
+}
+h2{
+    color:rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+thead{
+    background-color: rgb(179, 144, 189);
+}
+.formulario{
+    margin-bottom: 15px;
+}
+.formulario label{
+    display: block;
+    margin-bottom: 5px;
+}
+.formulario imput, textarea{
+    width: 98%;
+    border-radius: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(179, 144, 189);
+}
+footer{
+    margin: top 2px;
+    padding: 20px;
+    background-color: rgb(179, 144, 189);
+    color:rgb(0, 0, 0);
+    align-items: center;
+}
