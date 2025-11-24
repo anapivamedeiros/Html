@@ -1,0 +1,72 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(216, 209, 209);
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  line-height: 1.0;
+  flex-wrap: wrap;
+}
+
+h2{
+    margin-left: 25px;
+    margin-top: 150px;
+}
+
+.classico-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.classico-container img{
+    width: 80%;
+    max-width: 400px;
+    height: 80%;
+    border-radius: 0;
+    margin-top: 20px;
+}
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.produto p:first-of-type {
+    text-align: center;
+    margin-top: 5px; 
+    font-size: 15px;
+    color: #4d4c4c;
+}
+
+.botao-comprar {
+    background-color: rgb(204, 161, 173);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.voltar {
+    display: block;
+    margin-top: 20px;
+    color: #444;
+    text-decoration: underline;
+}
+footer{
+    margin-top: 150px;
+    padding: 20px;
+    background-color: rgb(204, 161, 173);
+    color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seta{
+    width: 15%;
+}
+a {
+  color: black;          
+  text-decoration: none; 
+}
