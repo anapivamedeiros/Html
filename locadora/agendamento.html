@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="css/agendamento.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="logo">
+        <img src="imgs/logo.png" alt="livro">
+        </div>
+        <nav>
+             
+              <a href="inicio.html">Home</a>
+               <a href="carro.html">Carros</a>
+               <a href="#Clientes">Clientes</a>
+               <a href="agendamento.html">Agendamentos</a>
+        </nav>
+        <div class="icon">
+            <a href="login.html">
+               <img src="imgs/iconesPess.png" alt="icon">
+               </a>
+        </div>
+    </header>
+
+
+<div class="container">
+
+    <h2>Agendamento de Carro</h2>
+
+    <div class="box">
+
+        <div class="calendario">
+            <label>Data Reserva</label>
+            <input type="date" id="dataAgenda">
+        </div>
+
+        <div class="calendario">
+        <label>Data Devolução</label>
+        <input type="date" id="dataAgenda">
+        </div>
+
+        <div class="campo">
+            <label>Horário</label>
+            <input type="time" id="horaAgenda">
+        </div>
+
+        <div class="campo">
+            <label>Cliente</label>
+            <input type="text" id="matricula">
+        </div>
+
+        <div class="campo">
+            <label>Carro</label>
+            <input type="text" id="matricula">
+        </div>
+
+        <div class="agendamento">
+            <a href="agendado.html">
+        <button onclick="agendar()">Agendar</button>
+        </a>
+        </div>
+
+    </div>
+
+    <p id="resultado"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+ <footer>
+  <div class="social">
+    <a href="https://www.instagram.com/seuusuario" target="_blank">📸 Instagram</a>
+    <a href="https://wa.me/seunumerodetelefone" target="_blank">💬 WhatsApp</a>
+    <a href="mailto:seuemail@exemplo.com">✉️ Email</a>
+  </div>
+  <p>© 2025 Biblioteca Jardim de Luz  Todos os direitos reservados</p>
+</footer>
+</body>
+</html>

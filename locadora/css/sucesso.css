@@ -1,0 +1,167 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ECEDD1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #F4B8D7;
+    padding: 7px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #fa8bc2;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-right: -34.5px;
+}
+/*logo*/
+.logo img{
+    width: 7%;
+    height: auto;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+/*listas link header*/
+nav a {
+    margin: 0 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    text-shadow: 0.7px 0.7px 2px rgba(255, 105, 180, 0.8);
+
+}
+
+nav a:hover {
+    color: #db598d;
+}
+
+h1{
+    text-align: center;
+}
+
+/*icon*/
+.icon img {
+    width: 45px;
+    height: 45px;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 155px;
+}
+
+
+.icon img:hover {
+    transform: scale(1.2);
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+     margin: 6px 0;
+    line-height: 1.0px;
+        line-height: 1.0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+h3{
+    font-size: 15px;
+        line-height: 1.0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.senha{
+    color: #c04884;
+    text-align: center;
+      line-height: 1.0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+    
+    form {
+        background-color: #fff0f5;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(255, 192, 203, 0.5);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 320px;
+        border: 2px solid #bd7a9b;
+        transform: translateY(200%);
+        margin-left: 40%; 
+    }
+
+    input, select, button {
+        padding: 12px;
+        font-size: 16px;
+        border: 1px solid #bd7a9b;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-color: #fff;
+        color: #d63384;
+        
+    }
+
+    select {
+        background-color: #fff0f5;
+    }
+
+    button {
+        background-color: #ff69b4;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        width: 100%;
+    }
+ /*rodapé*/
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 30px 20px;
+    background: #F4B8D7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-top: 5px solid #ff69b4;
+}
+footer{
+     margin-top: 580px;
+    font-size: 100%;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    margin-bottom: -5px;
+    margin-left: -5px;
+}
+a {
+  color: black;          
+  text-decoration: none;
+}
+/*©*/
+footer p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+footer .social a:hover {
+    color: #7a2f4d;
+}

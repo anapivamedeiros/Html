@@ -1,0 +1,245 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ECEDD1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #F4B8D7;
+    padding: 7px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #fa8bc2;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-right: -34.5px;
+}
+/*logo*/
+.logo img{
+    width: 7%;
+    height: auto;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+/*listas link header*/
+nav a {
+    margin: 0 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    text-shadow: 0.7px 0.7px 2px rgba(255, 105, 180, 0.8);
+
+}
+
+nav a:hover {
+    color: #db598d;
+}
+
+h1{
+    text-align: center;
+}
+
+/*icon*/
+.icon img {
+    width: 45px;
+    height: 45px;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 155px;
+}
+
+
+.icon img:hover {
+    transform: scale(1.2);
+}
+
+
+/*banner*/
+.banner img {
+    width: 100%;          
+    height: auto;         
+    object-fit: cover;    
+    display: block;       
+}
+.title {
+    margin-top: 2%;
+}
+
+
+/* ajusta os 3 itens lado a lado */
+.container{  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 300px;
+    margin-top: 3%;
+}
+
+/*chave, velocímetro e avaliação*/
+.avaliacao,
+.chave,
+.veloc{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 90%;
+    margin: 0;
+}
+
+/*imagens*/
+.avaliacao img,
+.chave img,
+.veloc img{
+    width: 80px;
+    height: auto;
+}
+
+
+.bloco-info{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 1rem; /* ou qualquer tamanho */
+    font-weight: 600;
+    gap: 150px;
+}
+
+
+
+
+
+
+
+/*sobre nos*/
+.secao-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #F4B8D7;
+    margin-right: -34.5px;
+    margin-top: 5%;
+   
+}
+.texto{
+    margin-top: 2%;
+}
+
+.text {
+    margin: 10%;
+    margin-top: 10%;
+    
+}
+
+
+/*destaques da loja*/
+.carros-container {
+    padding: 40px;
+  
+    color: rgb(36, 32, 32);
+    text-align: center;
+}
+/*destaques do mes*/
+.titulo-secao {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card-carro {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+/*imagens carros*/
+.card-carro img {
+    width: 80%;
+    height: 150px;
+    object-fit: contain;
+}
+
+/* nome do carro */
+.card-carro h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-carro button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(236, 186, 232);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-carro button:hover {
+    background: #d88cc2;
+}
+
+/*rodapé*/
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 30px 20px;
+    background: #F4B8D7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-top: 5px solid #ff69b4;
+}
+footer{
+     margin-top: 5px;
+    font-size: 100%;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    margin-bottom: -5px;
+    margin-left: -5px;
+}
+a {
+  color: black;          
+  text-decoration: none;
+}
+/*©*/
+footer p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+footer .social a:hover {
+    color: #7a2f4d;
+}
